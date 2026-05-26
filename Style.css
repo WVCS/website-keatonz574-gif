@@ -1,4 +1,4 @@
-/* Base Resets & Styling */
+
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +7,6 @@ body {
     color: #fff;
 }
 
-/* The Over-The-Top Header */
 .main-header {
     position: fixed;
     top: 0;
@@ -31,7 +30,6 @@ body {
                 inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
-/* Logo Styling */
 .logo {
     font-size: 24px;
     font-weight: 900;
@@ -46,7 +44,6 @@ body {
     text-shadow: 0 0 15px #00f2fe;
 }
 
-/* Navbar List */
 .navbar ul {
     list-style: none;
     display: flex;
@@ -55,7 +52,6 @@ body {
     gap: 30px;
 }
 
-/* Nav Links */
 .nav-link {
     text-decoration: none;
     color: #b3b3b3;
@@ -69,14 +65,12 @@ body {
     border-radius: 4px;
 }
 
-/* Hover & Active States */
 .nav-link:hover, .nav-link.active {
     color: #fff;
     text-shadow: 0 0 15px rgba(0, 242, 254, 0.8);
     background: rgba(0, 242, 254, 0.05);
 }
 
-/* Animated Neon Underline */
 .nav-link::after {
     content: '';
     position: absolute;
